@@ -1,0 +1,104 @@
+    1  lynx
+    2  vi /etc/sysconfig/network-scripts/ifcfg-enp0s3 
+    3  systemctl network restart
+    4  systemctl restart network
+    5  ping 8.8.8.8
+    6  telnet abv.bg:80
+    7  yum install telnet
+    8  telnet abv.bg:80
+    9  telnet abv.bg 80
+   10  yum -y install lynx
+   11  lynx abv.bg
+   12  clear
+   13  fpt 37.157.173.153
+   14  oing 37.157.173.153
+   15  ping 37.157.173.153
+   16  ftp 37.157.173.153
+   17  yum install ftp
+   18  ftp 37.157.173.153
+   19  ping 37.157.173.153
+   20  ftp 37.157.173.153
+   21  ftp
+   22  touch test.txt
+   23  ftp 
+   24  ftp 37.157.173.153
+   25  ftp 37.157.173.153 --verbose
+   26  ftp --verbose 37.157.173.153 
+   27  ftp 37.157.173.153 
+   28  ls -la
+   29  clear
+   30  ftp
+   31  ftp debug  37.157.173.153 
+   32  ftp 37.157.173.153 
+   33  clear
+   34  telnet mail.softserveinc.com 25
+   35  less /var/log/maillog 
+   36  clear
+   37  ls -la
+   38  sha1sum test.txt 
+   39  vi test.txt 
+   40  sha1sum test.txt 
+   41  yum install git
+   42  mkdit petclinic
+   43  mkdir petclinic
+   44  cd petclinic/
+   45  ip r
+   46  git clone https://github.com/stanchevm/spring-petclinic.git
+   47  git log
+   48  cd spring-petclinic/
+   49  git log
+   50  clear
+   51  ls -la
+   52  git blame docker-compose.yml 
+   53  git branch
+   54  git checkout -b mirotest
+   55  git branch
+   56  ls -la
+   57  vi docker-compose.yml 
+   58  git init 
+   59  git remote add origit https://github.com/stanchevm/gtoup.git
+   60  git add .
+   61  git push -u origin master
+   62  git add origin https://github.com/stanchevm/group.git
+   63  cd ../
+   64  ls -la
+   65  rm -rf spring-petclinic/
+   66  git clone https://github.com/stanchevm/group.git
+   67  cd group/
+   68  ls -la
+   69  less .git
+   70  clean
+   71  clear
+   72  pwd
+   73  touch mirotest.txt
+   74  vi mirotest.txt 
+   75  git add mirotest.txt 
+   76  git commit -m "first coomit"
+   77  git push
+   78  git branch
+   79  git add mirotest.txt 
+   80  git commit -m "first coomit"
+   81  git push -u origin master
+   82  git checkout -b bavno
+   83  touch README.md
+   84  vi README.md 
+   85  git add README.md 
+   86  vi mirotest.txt 
+   87  git add .
+   88  git branch
+   89  git commit 
+   90  git push
+   91  git status
+   92  git push -u origin bavno
+   93  ls -la
+   94  du -sh .git/
+   95  git checkout master
+   96  git pull
+   97  ls -la
+   98  cd ../
+   99  ls -la
+  100  cd ../
+  101  ls -la
+  102  history
+  103  history > mybahshistory.txt
+  104  history > petclinic/group/my_bash_history.txt
